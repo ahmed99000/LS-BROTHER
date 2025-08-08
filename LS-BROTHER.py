@@ -486,7 +486,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/MAHADI-143/BDMC/blob/main/.prox.txt').text
+    prox= requests.get('https://github.com/ahmed99000/LS-BROTHER/tree/main/.prox.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
